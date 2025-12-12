@@ -1,0 +1,100 @@
+/* scratch-styles.css */
+
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf6f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background-color: #f7b7c7;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.nav-bar a:hover {
+    color: #7f9cf5;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e0f7fa;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Section Styling */
+.section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    color: #7f9cf5;
+    margin-bottom: 15px;
+}
+
+/* Lists Styling */
+ul, ol {
+    line-height: 1.6;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Anchor Styling */
+a.anchor-link {
+    color: #f7b7c7;
+    text-decoration: none;
+}
+a.anchor-link:hover {
+    text-decoration: underline;
+}
+
+/* Back to Top Button */
+.btn-top {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7f9cf5;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-top:hover {
+    background-color: #5a73d1;
+    transform: translateY(-2px);
+}
+
+.section.text-center {
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+:root{
+--accent: #7f9cf5;
+--accent-soft: #f7b7c7;
+}
+
+
+body{
+font-family:'Poppins', sans-serif;
+background:#fbfbfe;
+}
+
+
+h1, h2, h3, h4{
+font-family:'Lora', serif;
+}
+
+
+.nav-link:hover{
+color:var(--accent) !important;
+}
+
+
+.btn-primary{
+background:var(--accent-soft) !important;
+}
